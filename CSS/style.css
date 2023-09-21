@@ -1,0 +1,365 @@
+/* COMMON CSS START*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.btn{
+    padding: 20px 30px ;
+    background-color:#cfc91d;
+    color: black;
+    font-weight: 800;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.head-text{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+    text-transform: uppercase;
+}
+ /* COMMON CSS END*/
+
+ /* navber start  */
+ nav{
+    background-color: #02918c;
+ }
+.container{
+    width: 1100px;
+    margin: auto;
+}
+.row{
+     display: flex;
+     flex-wrap: wrap;
+}
+.align-center{
+    align-items: center;
+}
+/* .justify-center{
+    justify-content: center;
+    align-items: center;
+} */
+.logo{
+    width: 40%;
+}
+.menu{
+    width: 60%;
+    text-align: right;
+}
+nav .container .row .menu ul li{
+    display: inline-block;
+
+}
+nav .container .row .menu ul li a{
+    font-size: 12px;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding:25px 20px ;
+    display: inline-block;
+}
+ /* navber end  */
+
+/* banner SACTION START  */
+#banner{
+    background-image: url('../IMAGE/MYFOLIO_banner.jpg');
+    width: 100%;
+    height: 726px;
+    background-size:  cover;
+    background-repeat: no-repeat;
+
+}
+#banner .container{
+    height: 726px;
+}
+#banner .row{
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#banner .banner_cnt{
+    text-align: center;
+    color: white;
+}
+#banner .banner_cnt h3{
+    font-size: 30px ;
+    padding-bottom: 25px;
+}
+#banner .banner_cnt h1{
+    font-size: 68px;
+    padding-bottom: 18px;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+}
+#banner .banner_cnt p{
+    font-size: 18px;
+    padding-bottom: 50px;
+
+}
+#banner .banner_cnt img{
+    padding-bottom: 50px;
+}
+/* SACTION END */
+
+/* ABOUT SACTION START  */
+#about{
+    width:100% ;
+    height: 740px;
+    background-color: white;
+    padding: 88px 0;
+}
+#about .heading{
+    text-align: center;
+}
+
+#about .heading #underline{
+    font-size: 16px;
+    color: #7e8287;
+    padding: 26px 0;
+}
+#about .container p{
+  font-size: 16px;
+  color: #7e8287;
+  text-align: center;
+  line-height: 30px;
+  padding-bottom: 77px;
+}
+#about .container span{
+    font-size: 23px;
+    font-weight: 800;
+}
+ .card1{
+    width: 23%;
+    text-align: center;
+    border-right: 1px solid #7e8287;
+    padding: 50px 0 0 0;
+}
+#about .card1 span {
+    color: #219e9a;
+    font-size: 20px;
+}
+.card1 h4{
+    font-size: 20px;
+    font-weight: 800;
+    color: #7e8287;
+    padding: 20px 0;
+}
+#about .container.row .card1 .p{
+    font-size: 11px;
+}
+.card1:last-child{
+    border: none;
+}
+/* ABOUT SACTION END  */
+
+/* SERVICE SEC START  */
+#service{
+    background-image:url('../IMAGE/MYFOLIO_banner2.jpg');
+    width: 100%;
+    height: 727px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.head_service{
+    padding: 70px 0 35px 0 ;
+}
+.container .service1{
+    width: 50%;
+}
+.container .service1 .p{
+    padding: 30px 0 50px 0;
+    color: #7e8287;
+    font-size: 16px;
+    /* margin-right: 600px; */
+}
+#service .row{
+    width: 50%;
+    justify-content: left;
+}
+#service .cart{
+    width: 50%;
+    line-height: 20px;
+    padding: 0 60px 49px 0 
+}
+#service .cart1{
+    padding: 0 60px 49px 0  ;
+}
+#service .cart span{
+    font-size: 20px;
+    color: #45aca6;
+}
+#service .cart h4{
+    padding:  17px 0;
+    font-weight: 800;
+    font-size: 16px;
+    color: #7e8287;
+}
+#service .cart .p{
+    color: #92948b;
+}
+#service .cart4{
+    padding: 0 60px 49px 0  ;
+}
+/* SERVICE SEC END */
+
+/* WORK SAC START  */
+#work{
+    width: 100%;
+    height: 288px;
+   
+}
+#work .container{
+    margin-top: 60px;
+    text-align: center;
+    
+}
+#work .under_design{
+    padding: 28px 0;
+}
+#work .p{
+    padding:0 250px ;
+    line-height: 27px;
+    color: #7e8287;
+}
+/* WORK SAC END */
+
+/* PIC SACTION START  */
+#pic{
+    width: 100%;
+    height: 475px;
+}
+#pic .picture_row{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+background-size: cover;
+background-repeat: no-repeat;
+}
+#pic .picture_row .picture{
+    width: 25%;
+    position: relative;
+}
+#pic .picture_row .picture img{
+    width: 100%;
+    height: 100%;
+    display: block;
+   
+}
+.picture .overlay{
+    text-align: center;
+    padding: 50px 30px 50px;
+    background-color: #158680ba;
+    margin: 22px 27px;
+    position: absolute;
+    top: 0;
+    color: white;
+    font-size: 13px;
+    /* opacity: 0;
+    visibility: hidden; */
+    transform: scale(0);
+    border-radius: 10px;
+}
+.picture:hover .overlay{
+    /* visibility: visible;
+    opacity: 1; */
+    transition: 1s;
+    transform: scale(1);
+
+}
+.picture .overlay h4{
+    font-size: 16px;
+    font-weight: 800;
+    padding-bottom: 13px;
+
+}
+/* PIC SACTION END */
+
+ /* FORM INPUT START  */
+/* #input{
+    padding: 65px 0;
+    margin-top: 65px;
+    background-color: #0b0b0b;
+
+}
+#input form{
+    text-align: center;
+}
+#input .form_input{
+    width: 922px;
+    margin: auto;
+    outline: none;
+    padding-bottom: 63px;
+
+}
+.form_input input{
+    width: 639px;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: #7e8287;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #7e8287;
+    margin: auto;
+    display: inline-block;
+}    
+
+#input .new_input input {
+    width: 922px;
+} */
+ /* FORM INPUT END */
+
+#inp_sac{
+    background-color: #0b0b0b;
+    padding: 62px 0;
+    margin: auto;
+}
+.form_input{
+    width: 916px;
+    outline: none;
+    margin: auto;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.form_input input{
+    width: 635px;
+    background-color: transparent;
+    text-align: center;
+    padding-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #898989;
+    color: #b2b2b3;
+}
+.from_sub input{
+    width: 916px;
+}
+.submit{
+    margin: auto;
+    text-align: center;
+}
+.btn_sub{
+    padding: 17px 60px;
+}
+
+/* footer start  */
+#footer{
+    background-color: #000000;
+}
+#footer h3{
+    font-size: 12px;
+    color: #7e8287;
+    text-align: center;
+    padding: 32px 0 22px;
+    font-weight: 600;
+}
+/* footer end */
